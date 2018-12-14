@@ -15,6 +15,7 @@ export const reqFoodCategorys = () => {
 export const reqShops = (longitude, latitude) => {
     ajax.get('/shops', {longitude, latitude})
 }
+
 // 4、根据经纬度和关键字搜索商铺列表
 // 5、获取一次性验证码
 // 6、用户名密码登陆
